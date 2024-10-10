@@ -1,0 +1,25 @@
+body {
+    background-color: yellowgreen;
+}
+h1, a {
+    color: orange;
+}
+
+/* * A pseudo-class defines a few "special states" of an element */
+
+/* unvisited */
+a:link {
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid blueviolet;
+    padding: 5px
+
+
+}
+
+/* mouse over link */
+a:hover{
+    border: 1px solid darkblue;
+    color: darkblue;
+    background-color: red;
+}

@@ -1,0 +1,54 @@
+/* ! By default every element is set to a position of "static" */
+
+/* * Meaning the elements a positioned according to the normal document flow */
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border: 2px solid black;
+  }
+  
+  .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+  }
+  
+  /* * POSITION CODE BELOW: */
+  .box1 {
+    /* ! Relative Postion */
+    /* * Moves the element - relative to its normal position, doesnt impact surrounding elements and reserves the normal postion
+     that it sat in originally */
+    /* position: relative; */
+    top: 300px;
+    right: 50px;
+    bottom: 50px;
+    left: 200px; 
+    top: 500px; 
+  
+  
+    /* ! FIXED Postion */
+    /* * Allows us to fix an element to a specified position realtive to our browser window. 
+    Meaining it isnt impacted by scroll or page movement */
+    position: fixed;
+    top: 500px;
+    right: 0;
+  }
+  
+  .box2 {
+    /* ! Absolute Position */
+    /* * Takes the element out of the normal document flow and gives us freedom to position it absolutely */
+  
+    /* * When working with an absolutely postioned element, we need to be aware of its parent element if there is one. 
+    If the element has a parent (that is set to any position other than static, it will be positioned absoulutely within 
+    the parent element  */
+    position: absolute;
+    top: 100px;
+    left: 500px; 
+  
+    position: sticky;
+    bottom: 10px;
+    top: 500px;
+  }

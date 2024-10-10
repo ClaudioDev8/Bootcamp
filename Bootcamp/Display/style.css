@@ -1,0 +1,30 @@
+h1,
+p,
+ul,
+ol {
+ background-color: deepskyblue;
+}
+
+a,
+label {
+    background-color:rgb(255, 213, 0) ;
+}
+h1 {
+    height: 200px;
+    width: 200px;
+}
+/* * Height and Width have no impact on Inline elements */
+label {
+    height: 300px;
+}
+
+/* * We can use the "display" property to control an element display type ourselves */
+
+label {
+    display:block;
+}
+
+img {
+    height: 175px;
+
+}

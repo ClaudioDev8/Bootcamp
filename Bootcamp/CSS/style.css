@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  /* All CSS Declarations for this element are contained in our brackets */
+  color: blue;
+  background-color: skyblue;
+}
+
+/* * An element selector will select every instance of the desired element and apply the rules to them all */
+p {
+    color: deeppink;
+    background-color: black;
+    
+
+}
+
+/* ! Class Selector (".classname") */
+
+.odd {
+    color: aquamarine;
+    background-color: darkgray;
+}
+
+.even{
+
+  color: crimson;
+  background-color: blueviolet;
+}
+
+/* ! ID Selector ("#id_name") */
+/* *Apply the styling to the element with the corresponding ID */
+
+#paragraph1 {
+  color: white;
+  background-color: black;
+}

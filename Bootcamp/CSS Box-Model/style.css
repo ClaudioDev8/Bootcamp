@@ -1,0 +1,39 @@
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: azure;
+
+    /* * Box-Model Properties: */
+    
+    /* * Border provides a style border around the padding beteween the padding and margin */
+    border: 5px solid blueviolet;
+
+    /* * Padding provides a gap between the border and the content */
+    
+    padding: 20px;
+    /* * Margin provides a gap outside of the border between the body of the document and other surrounding elements */
+    margin: 0;
+    margin-bottom: 100px;
+    text-align: center;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    color: azure;
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: azure;
+
+}
+
+a {
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 50px;
+    
+}

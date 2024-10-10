@@ -1,0 +1,34 @@
+/* * Stripping back the default margin, changing the font and font color */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  
+  /* * Providing a alternating background colour for each div */
+  .container div {
+    background-color: #0f4c5c;
+    padding: 1em;
+  }
+  
+  .container div:nth-child(even) {
+    background-color: #fb8b24;
+  }
+  
+  /* ! Grid Code Below: */
+  
+  /* * We convert a container / parent element to a grid by changing our display proerty value to "grid" */
+  .container {
+    display: grid;
+    /* * To specify the number of columns in our grid we use the "grid-template-columns" property and pass it a number of values to represent the number of columns */
+    /* ! With grid we can use fractional units (fr) */
+    /* * Lets say we wanted to plot a grid with mulitiple even columns say 12 we can use "repeat()" to avoid writing multiple instances of a value */
+    /* grid-template-columns: repeat(12, 1fr); */
+    grid-template-columns: 2fr 1fr;
+  
+    /* * "gap" is a property that can be used with grid or flexbox to provide a gap between items or grid spaces  */
+    /* row-gap: 5px;
+    column-gap: 5px; */
+    gap: 5px;
+  }
+  

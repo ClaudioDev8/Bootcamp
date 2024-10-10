@@ -1,0 +1,130 @@
+/* ! Styles to make the demo visually appealing */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .container {
+    border: 3px solid black;
+    /* height: 80vh; */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* ! Colours for each box */
+  
+  .box1 {
+    background-color: #ff4757;
+  }
+  
+  .box2 {
+    background-color: #1e90ff;
+  }
+  
+  .box3 {
+    background-color: #2ed573;
+  }
+  
+  /* ! Flexbox Code Below: */
+  
+  .container {
+    /* * To access flexbox we change the display property of our parent container to "flex" */
+    display: flex;
+  
+    /* * Flex-Direction sets the direction of our axis and defines the main-axis */
+    /* * By default our "flex-direction" is set to row */
+    /* flex-direction: column; */
+  
+    /* * Flex-wrap - Dictates whether or not the items in our container will wrap onto a new if there is not enough space */
+    flex-wrap: wrap;
+  
+    /* * justify-content - Justifies our items across our main axis */
+    /* justify-content: center; */
+  
+    /* * align-items - Aligns items across the secondary axis */
+    /* * By defualt the value is set to streth meaning elements will fill the full height / width */
+    align-items: flex-start;
+  
+    /* * align-content - Define how our elements are distributed on our secondary axis, if the elements are wrapped */
+  
+    /* align-content: space-evenly; */
+  }
+  
+  /* * align-self - allows us to specify an alignment for an individual item  */
+  /* .box1 {
+    align-self: flex-end;
+  }
+  
+  .box2 {
+    align-self: center;
+  }
+  
+  .box3 {
+    align-self: flex-start;
+  } */
+  
+  /* * flex-basis - Think of like a measurement that spcifies the size of an element in an ideal situation if space accomodates for it */
+  /* 
+  .box1 {
+    flex-basis: 500px;
+  }
+  
+  .box2 {
+    flex-basis: 500px;
+  }
+  
+  .box3 {
+    flex-basis: 500px;
+  } */
+  
+  /* *flex-grow - Takes a numerical value not a unit of measure, and it dictates the rate at which you would like an item to grow into available space */
+  
+  /* .box1 {
+    flex-grow: 3;
+  }
+  
+  .box2 {
+    flex-grow: 2;
+  }
+  
+  .box3 {
+    flex-grow: 1;
+  } */
+  
+  /* * flex-shrink - Think of flex-grow and the same principle applies but to how much an element shrinks when there is not enough space */
+  
+  /* .box1 {
+    flex-shrink: 1;
+  }
+  
+  .box2 {
+    flex-shrink: 2;
+  }
+  
+  .box3 {
+    flex-shrink: 3;
+  } */
+  
+  /* * flex is grow, shrink and basic combined. We pass a grow value, a shrink value and a basis value*/
+  .box1 {
+    flex: 3 1 500px;
+  }
+  
+  .box2 {
+    flex: 2 2 500px;
+  }
+  
+  .box3 {
+    flex: 1 3 500px;
+  }
+  
