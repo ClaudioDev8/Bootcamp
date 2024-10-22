@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.listItems {
+  background-color: rgb(30, 195, 255);
+  color: deeppink;
+}
+
+#item4 {
+  background-color: deeppink;
+  color: rgb(30, 195, 255);
+}
