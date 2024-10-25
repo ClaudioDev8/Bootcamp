@@ -1,0 +1,21 @@
+html {
+    background-color: aqua;
+}
+
+.container {
+    height: 325px;
+    width: 350px;
+    background-color: antiquewhite;
+
+    display: grid;
+    grid-template-columns: 100 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    
+
+    margin:auto;
+    border: 5px solid blue;
+    padding: 25px;
+    
+    
+
+}
