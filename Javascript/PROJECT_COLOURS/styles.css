@@ -10,6 +10,7 @@ button {
     margin: 10px;
     cursor: pointer;
     border-radius: 5px;
+    opacity: 0.5;
 }
 
 button:hover {
