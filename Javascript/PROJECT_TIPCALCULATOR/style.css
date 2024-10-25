@@ -1,21 +1,65 @@
-html {
-    background-color: aqua;
-}
-
-.container {
-    height: 325px;
-    width: 350px;
-    background-color: antiquewhite;
-
-    display: grid;
-    grid-template-columns: 100 1fr;
-    grid-template-rows: 75px 75px 75px 75px;
+/* General styling for the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    background-color: lightblue;
+  }
+  
+  /* Styling the container */
+  #container {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
     
-
-    margin:auto;
-    border: 5px solid blue;
-    padding: 25px;
-    
-    
-
-}
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Label styling for text */
+  #container label {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Input fields styling */
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the button */
+  #btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Result fields styling */
+  input[type="number"]:disabled {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
